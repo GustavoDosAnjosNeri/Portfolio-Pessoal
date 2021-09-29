@@ -10,7 +10,7 @@
     margin-left: 0.7rem;
     margin-right: 0.7rem;
 }
-
+ 
 /* HEADER */
 #header{
     top: 0;
@@ -89,8 +89,14 @@
     width: 4rem;
 }
 
-.divider{
+.Vdivider{
     background-color: black;
     width: 0.05rem;
     height: 90%; 
+}
+
+.Hdivider{
+    background-color: black;
+    width: 90%;
+    height: 2%; 
 }
