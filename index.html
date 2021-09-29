@@ -5,33 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OxManager</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header" id="header">
-        <div class="logo container" id="logo">
-            <h1>OxManager</h1>
+        <div class="logo" id="logo">
+            OxManager
         </div>
     </header>
     <main>
-        <button class="button container">
-            Adicionar
-        </button>
+        <section class="toolbar">
+            <form id="form">
+                <input type="search" class="sb" id="searchbar" placeholder="Digite sua busca...">
+                <button class="sb search-button">
+                    Buscar
+                </button>
+            </form>
+            <div class="button">
+                Adicionar
+            </div>
+        </section>
 
-        <div class="container box">
-            <div class="animage img-container">
+        <section class="section-box">
+            <div class="box">
+
             </div>
-            <div class="container data">
-                Nome
-                <input type="text" class="name tags">
-                Idade
-                <input type="text" class="age tags ">
-                Numero
-                <input type="text" class="number tags">
+        </section>
+
+        <section class="section-box">
+            <div class="box">
+
             </div>
-            <div class="Vdivider"></div>
-            
-        </div>
+        </section>
+
     </main>
 </body>
 </html>
