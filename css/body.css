@@ -2,7 +2,10 @@
     padding: 0%;
     margin: 0%;
     height: 100%;
+<<<<<<< HEAD
     font-family: 'Poppins', sans-serif;
+=======
+>>>>>>> master
 }
 
 /*=====OVER=====*/
@@ -77,12 +80,20 @@ img{
 }
 
 img{
+<<<<<<< HEAD
     transition: 0.2s;
+=======
+    transition: 0.7s;
+>>>>>>> master
 }
 
 img:hover{
     filter: brightness(.60);
+<<<<<<< HEAD
     transform: scale(1.02, 1.02);
+=======
+    transform: scale(1.01, 1.01);
+>>>>>>> master
     z-index: 10;
     cursor: pointer;
 }
@@ -125,6 +136,7 @@ img:hover{
 .sct3 .items .info h1{
     margin: 0 0 1rem 0;
     text-align: center;
+<<<<<<< HEAD
 }
 
 /*=====MEDIA QUERIES=====*/
@@ -138,4 +150,6 @@ img:hover{
         justify-content: center;
         align-items: center;
     }
+=======
+>>>>>>> master
 }
