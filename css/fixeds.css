@@ -1,0 +1,55 @@
+*, body{
+    height: auto;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+header{
+    position: fixed;
+    display: flex;
+    z-index: 100;
+}
+
+header div{
+    position: relative;
+    height: 4.5rem;
+    background: rgb(255,0,65);
+}
+
+header .esq h3{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+}
+footer{
+    display: flex;
+    bottom: 0;
+    height: 3rem;
+}
+
+footer div{
+    width: 33.3333333333333333333%;
+    position: relative;
+    display: inline-flex;
+}
+
+footer .mid{
+    background-color: gray;
+}
+
+footer .esq{
+    background-color:chocolate;
+}
+
+footer .dir{
+    background-color: blue;
+}
+
+footer p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
