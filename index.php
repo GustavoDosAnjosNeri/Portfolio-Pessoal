@@ -46,11 +46,15 @@
                 <img class="side2" src="assets\images\img4.png" alt="">
             </div>
             <div class="info">
-                <h1>LOREM MACAQUITUS SAOUD</h1>
+                <h3>LOREM MACAQUITUS SAOUD</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore saepe esse doloremque. Blanditiis, ipsam enim? Voluptate id officia officiis. Illum corrupti nesciunt natus reprehenderit accusantium facere unde rem corporis consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium explicabo aspernatur libero cum nihil vel quis nostrum, facere hic esse corrupti dolores, veritatis, asperiores amet? Totam quia velit et porro. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa quia sint dignissimos possimus voluptatum laboriosam, necessitatibus labore ea vitae ex quod voluptatibus vel dolores, ducimus nulla nobis architecto laborum natus.</p>
-            </div>        </div>
+            </div>        
+        </div>
     </section>
 </body>
+    <?php
+        include('footer.php')
+    ?>
     
 </html>
 
