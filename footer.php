@@ -13,8 +13,8 @@
 <footer>
     <div class="esq">
         <div class="container">
-            <h3>Contato</h3>
             <div class="contatos">
+                <h3>Contato</h3>
                 <div class="logos">
                     <span class="icon-instagram"></span>
                     <a target="_blank" href="https://instagram.com">Instagram</a>
