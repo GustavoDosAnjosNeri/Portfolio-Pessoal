@@ -79,12 +79,45 @@ header .esq h3{
     height: 100%;
     display: flex;
     align-items: center;
-    padding-left: 6%;
+    margin: 0 0 0 1rem;
 }
 
 /*=====HEADER DIREITA=====*/
+header .dir{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+header .dir .menu{
+    margin: 0 1rem 0 0;
+}
+
+header .dir .menu li{
+    margin: 0 1rem 0 0;
+    width: auto;
+    display: inline-flex;
+    column-gap: 3rem;
+    float: right;
+}
+
+header .dir .menu a{
+    height: min-content;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: ease-in-out 0.4s;
+}
+
+header .dir .menu a:hover{
+    transform: translateY(-0.3rem);
+}
 
 /*=====HEADER MID=====*/
+
+/* =============================================================================  */
 
 /*=====FOOTER=====*/
 footer{
@@ -105,10 +138,18 @@ footer p{
 
 /*=====FOOTER CONTAINER=====*/
 
+footer .container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*=====FOOTER ESQUERDA=====*/
 footer .esq{
     background-color:var(--footercolor);
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
 }
 
 footer .esq h3{
@@ -116,7 +157,7 @@ footer .esq h3{
 }
 
 footer .esq .container{
-    margin: 0 0 0 1rem;
+    margin: 0 0 0 2rem;
     width: 100%;
     height: 100%;
     background-color: none;
@@ -132,7 +173,6 @@ footer span{
 }
 
 footer a{
-
     text-decoration: none;
     color: var(--contatoscolor);
 }
@@ -145,10 +185,14 @@ footer .esq .contatos .logos{
     align-items: center;
     vertical-align: middle;
     column-gap: 0.3rem;
+    height: min-content;
+    width: min-content;
 }
 
 footer .esq .contatos .logos:hover{
     transform: translatex(1rem);
+    color: var(--contatoscolor);
+    box-shadow: none;
 }
 /*=====FOOTER DIREITA=====*/
 footer .dir{

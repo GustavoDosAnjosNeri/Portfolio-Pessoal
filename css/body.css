@@ -78,6 +78,14 @@ h3{
     margin: 1rem 0 1rem 1rem;
 }
 
+.sct3 .items .info{
+    text-align: center;
+    row-gap: 1rem;
+    display:block;
+    margin: 0 1rem 1rem 1rem;
+    width: fit-content;
+}
+
 /*=====IMAGES=====*/
 img{ 
     height:80%;
@@ -105,8 +113,6 @@ img:hover{
 /*=====SCT3=====*/
 .sct3 .items {
     display: block;
-    width: 100%;
-    margin: 0 0 1rem 0;
 }
 
 .sct3 .images{
@@ -123,14 +129,12 @@ img:hover{
     height: auto;
 }
 
-.sct3 .items .info{
-    margin: 0 0 0 1rem;
-    row-gap: 1rem;
-    display:block;
+.sct3 .items .info h3{
+    height:min-content;
+    text-align: center;
 }
 
-.sct3 .items .info h3{
-    text-align: center;
+.sct3 .items .info p{
     height:min-content;
 }
 
