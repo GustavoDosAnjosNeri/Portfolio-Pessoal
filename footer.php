@@ -39,11 +39,11 @@
             <div class="atual">
                 <div class="logos">
                     <span class="icon-instagram"></span>
-                    <a target="_blank" href="https://instagram.com">Instagram</a>
+                    <a target="_blank" href="https://www.instagram.com/gustavodosanj0s/">Instagram</a>
                 </div>
                 <div class="logos">
                     <span class="icon-facebook2"></span>
-                    <a target="_blank" href="https://facebook.com">Facebook</a>
+                    <a target="_blank" href="https://www.facebook.com/gustavo.neri.125">Facebook</a>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
             <div class="projetos">
                 <div class="logos">
                     <span class="icon-github"></span>
-                    <a target="_blank" href="https://github.com">Github</a>
+                    <a target="_blank" href="https://github.com/GustavoDosAnjosNeri">Github</a>
                 </div>
             </div>
         </div>
