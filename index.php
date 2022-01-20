@@ -16,18 +16,18 @@
     include("header.php");
     ?>
 <body>
-    <section class="sct1 container">
+    <section id="1" class="sct1 container">
         <div class="items ">
             <img src="assets\images\img1.png" alt="">
             <div class="info">
-                <h3>Goleiro gay gay goleiro</h3>
+                <h3 id="1">Goleiro gay gay goleiro</h3>
                 <p>Lorem ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, nemo impedit. Cupiditate delectus unde odit molestias modi. Quasi voluptatibus aut modi, sint eveniet a dolore aliquam quod est. Sunt, pariatur! sit amet consectetur adipisicing elit. Incidunt blanditiis similique, odit possimus dolores pariatur vel inventore. Rerum, amet. Reprehenderit officiis inventore ea porro, non ipsam quisquam amet eveniet earum?</p>
             </div>
         </div>
     </section>
     <div class="div1">
     </div>
-    <section class="sct2 container">
+    <section id="2" class="sct2 container">
         <div class="items">
             <div class="info">
                 <h3>Cala a boca monkey</h3>
@@ -36,10 +36,10 @@
             <img src="assets\images\img2.png" alt="">
         </div>
     </section>
-    <div class="div2">
+    <div class="div2" >
 
     </div>
-    <section class="sct3 container">
+    <section id="3" class="sct3 container">
         <div class="items">
             <div class="images">
                 <img class="side1" src="assets\images\img3.png" alt="">

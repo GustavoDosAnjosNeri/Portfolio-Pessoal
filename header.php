@@ -14,16 +14,17 @@
 <body>
     <header>
         <div class="esq">
-            <h3>KelliNeri</h3>
+            <h3><span class="icon-instagram"></span>Gustavo DosAnjos</h3>
         </div>
         <div class="mid">
         </div>
         <div class="dir">
             <ul class="menu">
                 <li>
-                    <a href="">um</a>
-                    <a href="">dois</a>
-                    <a href="">tres</a>
+                    <a href="#1">um</a>
+                    <a href="#2">dois</a>
+                    <a href="#3">tres</a>
+                    <a href="#4">quatro</a>
                 </li>
 
             </ul>
