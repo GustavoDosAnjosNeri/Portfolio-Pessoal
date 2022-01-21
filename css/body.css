@@ -7,6 +7,8 @@
 /*=====OVER=====*/
 :root{
     --footer-height: 9rem;
+    --sb-thumb-color: rgb(40, 40, 40);
+    --sb-track-color: rgb(77, 77, 77);
 }
 
 body{
@@ -30,6 +32,21 @@ p{
 h3{
     font-size: 2rem;
     text-transform: uppercase;
+}
+
+::-webkit-scrollbar{
+    width: 1em;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--sb-thumb-color);
+    border-radius: 50vw;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 50vw;
+    margin-block: 0.2rem;
+    background-color: var(--sb-track-color);
 }
 /*=====DIVIDER=====*/
 .div1, .div2{

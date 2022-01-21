@@ -16,15 +16,13 @@
         <div class="esq">
             <h3><span class="icon-instagram"></span>Gustavo DosAnjos</h3>
         </div>
-        <div class="mid">
-        </div>
         <div class="dir">
             <ul class="menu">
                 <li>
-                    <a href="#1">um</a>
-                    <a href="#2">dois</a>
-                    <a href="#3">tres</a>
-                    <a href="#4">quatro</a>
+                    <a href="#1">WEB</a>
+                    <a href="#2">AUTOMAÇÃO</a>
+                    <a href="#3">projetos</a>
+                    <a href="#4">Contato</a>
                 </li>
 
             </ul>

@@ -1,16 +1,14 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('../assets/fonts/icomoon.eot?x3kg6l');
-    src:  url('../assets/fonts/icomoon.eot?x3kg6l#iefix') format('embedded-opentype'),
-      url('../assets/fonts/icomoon.ttf?x3kg6l') format('truetype'),
-      url('../assets/fonts/icomoon.woff?x3kg6l') format('woff'),
-      url('../assets/fonts/icomoon.svg?x3kg6l#icomoon') format('svg');
+    src: url('../assets/fonts/icomoon.eot?x3kg6l');
+    src: url('../assets/fonts/icomoon.eot?x3kg6l#iefix') format('embedded-opentype'), url('../assets/fonts/icomoon.ttf?x3kg6l') format('truetype'), url('../assets/fonts/icomoon.woff?x3kg6l') format('woff'), url('../assets/fonts/icomoon.svg?x3kg6l#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
-  }
-  
-  [class^="icon-"], [class*=" icon-"] {
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
     speak: never;
@@ -19,35 +17,41 @@
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-  
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-envelop:before {
+}
+
+.icon-envelop:before {
     content: "\e945";
-  }
-  .icon-facebook2:before {
+}
+
+.icon-facebook2:before {
     content: "\ea91";
-  }
-  .icon-instagram:before {
+}
+
+.icon-instagram:before {
     content: "\ea92";
-  }
-  .icon-whatsapp:before {
+}
+
+.icon-whatsapp:before {
     content: "\ea93";
-  }
-  .icon-github:before {
+}
+
+.icon-github:before {
     content: "\eab0";
-  }
-  .icon-linkedin:before {
+}
+
+.icon-linkedin:before {
     content: "\eac9";
-  }
-  
+}
+
 
 /*===========================================================*/
 
-html, *, body{
+html,
+*,
+body {
     height: auto;
     padding: 0;
     margin: 0;
@@ -55,39 +59,43 @@ html, *, body{
     scroll-behavior: smooth;
 }
 
+
 /*=====OVER=====*/
-:root{
+
+:root {
     --footercolor: black;
     --headercolor: rgba(255, 255, 255, 40%);
     --headertextcolor: black;
-
     --fontcolor: rgb(77, 77, 77);
     --contatoscolor: rgb(77, 77, 77);
     --footertextsize: 1.3rem;
 }
 
+
 /*=====HEADER=====*/
 
-header{
+header {
     position: fixed;
     display: flex;
     z-index: 100;
     color: var(--headertextcolor);
 }
 
-header div{
+header div {
     position: relative;
     height: 4.5rem;
     background-color: var(--headercolor);
     opacity: 1;
 }
 
+
 /*=====HEADER ESQUERDA=====*/
-header.esq{
-    font-family:monospace;
+
+header.esq {
+    font-family: monospace;
 }
 
-header .esq span{
+header .esq span {
     display: flex;
     align-items: center;
     height: auto;
@@ -95,18 +103,19 @@ header .esq span{
     margin: 0 0.5rem 0 0;
 }
 
-header .esq h3{
+header .esq h3 {
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     height: 100%;
     margin: 0 0 0 1rem;
-
 }
 
+
 /*=====HEADER DIREITA=====*/
-header .dir{
+
+header .dir {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     font-size: 1.3rem;
@@ -114,11 +123,11 @@ header .dir{
     align-items: center;
 }
 
-header .dir .menu{
+header .dir .menu {
     margin: 0 1rem 0 0;
 }
 
-header .dir .menu li{
+header .dir .menu li {
     margin: 0 1rem 0 0;
     width: auto;
     display: inline-flex;
@@ -126,29 +135,35 @@ header .dir .menu li{
     float: right;
 }
 
-header .dir .menu a{
+header .dir .menu a {
+    color: var(--headertextcolor);
     height: min-content;
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
     list-style: none;
-    color: black;
     transition: ease-in-out 0.4s;
     transform: translateZ(0);
     backface-visibility: hidden;
 }
 
-header .dir .menu a:hover{
+header .dir .menu a:hover {
     transform: translateZ(0);
     backface-visibility: hidden;
     transform: translateY(-0.3rem);
     transition: 0.4s;
 }
 
+
 /*=====HEADER MID=====*/
+
 
 /* =============================================================================  */
 
+
 /*=====FOOTER=====*/
-footer{
+
+footer {
     display: inline-flex;
     min-height: 15rem;
     height: auto;
@@ -157,52 +172,58 @@ footer{
     vertical-align: bottom;
     background-color: var(--footercolor);
 }
-footer div{
+
+footer div {
     position: relative;
     display: inline-flex;
 }
-footer p{
+
+footer p {
     color: var(--fontcolor);
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer h3{
+footer h3 {
     color: var(--fontcolor);
     margin: 1.5rem 0 0 0;
     text-transform: uppercase;
 }
 
-footer a{
+footer a {
     color: var(--fontcolor);
 }
 
+
 /*=====FOOTER CONTAINER=====*/
 
-footer .container{
-    display:flex;
+footer .container {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
 /*=====FOOTER ESQUERDA=====*/
-footer .esq{
-    background-color:var(--footercolor);
+
+footer .esq {
+    background-color: var(--footercolor);
     vertical-align: middle;
     align-items: center;
     display: flex;
     padding: 0 0 3rem 0;
 }
 
-footer .esq .container{
+footer .esq .container {
     display: block;
     margin: 0 0 0 2rem;
     width: 100%;
     height: 100%;
     background-color: none;
 }
-footer .esq .container p{
+
+footer .esq .container p {
     margin: 0 0 0.5rem 0;
     height: fit-content;
     width: fit-content;
@@ -210,20 +231,20 @@ footer .esq .container p{
     font-size: var(--footertextsize);
 }
 
-footer .esq .contatos{
-    display:block;
+footer .esq .contatos {
+    display: block;
 }
 
-footer span{
+footer span {
     height: auto;
     width: auto;
 }
 
-footer a{
+footer a {
     text-decoration: none;
 }
 
-footer .esq .contatos .logos{
+footer .esq .contatos .logos {
     font-size: var(--footertextsize);
     transition: 0.5s;
     color: var(--contatoscolor);
@@ -235,19 +256,22 @@ footer .esq .contatos .logos{
     width: min-content;
 }
 
-footer .esq .contatos .logos:hover{
+footer .esq .contatos .logos:hover {
     transform: translateZ(0);
     backface-visibility: hidden;
     transform: translatex(1rem);
     color: var(--contatoscolor);
     box-shadow: none;
 }
+
+
 /*=====FOOTER DIREITA=====*/
-footer .dir{
+
+footer .dir {
     background-color: var(--footercolor);
 }
 
-footer .dir .container{
+footer .dir .container {
     display: block;
     margin: 0 1rem 0 0;
     width: 100%;
@@ -255,14 +279,15 @@ footer .dir .container{
     background-color: none;
 }
 
-footer .dir .container p{
+footer .dir .container p {
     height: fit-content;
     width: fit-content;
     display: flex;
     font-size: var(--footertextsize);
     margin: 0 0 0.5rem;
 }
-footer .dir .projetos .logos{
+
+footer .dir .projetos .logos {
     font-size: var(--footertextsize);
     transition: 0.5s;
     color: var(--contatoscolor);
@@ -274,7 +299,7 @@ footer .dir .projetos .logos{
     width: min-content;
 }
 
-footer .dir .projetos .logos:hover{
+footer .dir .projetos .logos:hover {
     transform: translateZ(0);
     backface-visibility: hidden;
     transform: translatex(1rem);
@@ -282,12 +307,14 @@ footer .dir .projetos .logos:hover{
     box-shadow: none;
 }
 
+
 /*=====FOOTER MEIO=====*/
-footer .mid{
+
+footer .mid {
     background-color: var(--footercolor);
 }
 
-footer .mid .container{
+footer .mid .container {
     display: block;
     margin: 0;
     width: 100%;
@@ -295,7 +322,7 @@ footer .mid .container{
     background-color: none;
 }
 
-footer .mid .container p{
+footer .mid .container p {
     height: fit-content;
     width: fit-content;
     display: flex;
@@ -303,11 +330,11 @@ footer .mid .container p{
     margin: 0 0 0.5rem 0;
 }
 
-footer .atual{
+footer .atual {
     display: block;
 }
 
-footer .mid .atual .logos{
+footer .mid .atual .logos {
     font-size: var(--footertextsize);
     transition: 0.5s;
     color: var(--contatoscolor);
@@ -319,7 +346,7 @@ footer .mid .atual .logos{
     width: min-content;
 }
 
-footer .mid .atual .logos:hover{
+footer .mid .atual .logos:hover {
     transform: translateZ(0);
     backface-visibility: hidden;
     transform: translatex(1rem);
@@ -327,9 +354,8 @@ footer .mid .atual .logos:hover{
     box-shadow: none;
 }
 
-@media (max-width: 700px){
-    header div{
+@media (max-width: 700px) {
+    header div {
         background-color: rgb(16, 235, 133);
     }
 }
-

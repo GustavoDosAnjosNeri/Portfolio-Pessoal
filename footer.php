@@ -35,7 +35,7 @@
     <div class="mid">
         <div class="container">
         <h3>ATUALMENTE</h3>
-        <p>Dedicado ao meu aprendizado profissional e pessoal. <br>Você pode saber mais sobre mim nas minhas redes sociais.</p>
+        <p>Dedicado ao meu aprendizado profissional e pessoal. <br>Você pode saber mais sobre mim aqui.</p>
             <div class="atual">
                 <div class="logos">
                     <span class="icon-instagram"></span>

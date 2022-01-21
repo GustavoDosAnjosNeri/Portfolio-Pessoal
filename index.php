@@ -20,8 +20,11 @@
         <div class="items ">
             <img src="assets\images\img1.png" alt="">
             <div class="info">
-                <h3 id="1">Goleiro gay gay goleiro</h3>
-                <p>Lorem ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, nemo impedit. Cupiditate delectus unde odit molestias modi. Quasi voluptatibus aut modi, sint eveniet a dolore aliquam quod est. Sunt, pariatur! sit amet consectetur adipisicing elit. Incidunt blanditiis similique, odit possimus dolores pariatur vel inventore. Rerum, amet. Reprehenderit officiis inventore ea porro, non ipsam quisquam amet eveniet earum?</p>
+                <h3 id="1">Desenvolvimento Web</h3>
+                <p>A mais de 3 anos tendo HTML e CSS como principal nos estudos. Aprendendo a desenvolver de forma limpa e moderna.
+                    <br>
+                    Sempre valorizando a experiencia do usuario, desempenho e a satisfação do cliente.
+                </p>
             </div>
         </div>
     </section>
@@ -30,8 +33,10 @@
     <section id="2" class="sct2 container">
         <div class="items">
             <div class="info">
-                <h3>Cala a boca monkey</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique repellendus, libero voluptate quod vel provident esse ab a, veniam recusandae, qui accusantium voluptas alias aut illo sapiente expedita quisquam. Eaque!locale_filter_matches</p>
+                <h3>Automação de processos</h3>
+                <p>Realizar diversas atividades rotineiras, de diversos setores apenas com uma unica maquina torna tudo mais dinamico e economico.
+                    <br>
+                    Esse é o objetivo da automação de processos com Python.</p>
             </div>
             <img src="assets\images\img2.png" alt="">
         </div>
